@@ -1,16 +1,23 @@
-PIG3D - Function Junction Site Model
+PIG3D - Boundary Road Showroom Model
 ====================================
 
+2311 Boundary Road, Vancouver. Tenant improvement proposal model, built from
+the dys architecture preliminary set (issue 28 Sep 2026).
+
 Contents
-  index.html   the model (data, viewer and styles in one file)
-  *.js         drawing-overlay packs (26 files). They are loaded on demand
-               and must stay in the SAME folder as index.html.
+  index.html   the model (data, viewer and styles in one file, about 1.6 MB)
 
 Host it
-  Upload the whole folder as-is to any static web host. No server code,
-  database or build step is needed. Open index.html (or the folder URL).
+  Serve index.html from any static web host. No server code, database or
+  build step is needed.
 
 Notes
   - Needs a browser with WebGL 2 (current Chrome, Edge, Firefox, Safari).
   - Fonts load from Google Fonts; offline, the page falls back to system fonts.
-  - Total size about 34 MB, most of it the drawing overlays.
+  - Drawn from the set: footprint, grids, partitions, raised platform, room
+    names and areas. Assumed: heights, roof and finishes. Simplified: doors,
+    furniture, vehicles, canopy and the car lot.
+
+Previous model
+  The Function Junction site model was removed in the commit that added this
+  page. It remains in the git history (last commit before removal: 68c9015).
